@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* ----- Reset -----*/
+*
+*::before
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+html {
+font-family:"Ubuntu", sans-serif;
+font-weight:600 ;
+}
+body {
+  background-color: #222;
+  color: white;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+ul {
+  list-style: none;
+}
+input,
+button {
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+}
+button {
+  border: none;
+}
+/* ----- App -----*/
+.app {
+  background-color: #05292E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+
+}
+.app__appfondo {
+ display: flex;
+ position: relative;
+ width: 100%;
+ align-items: center;
+ justify-content: center;
+ 
+
+}
+.app__form {
+  display: flex;
+  justify-content: center;
+}
+.app__form-input {
+  border-radius: 6px 0 0 6px;
+  
+}
+.app__form-btn {
+  border-radius: 0 7px 7px 0;
+  padding: 5px 15px;
+  background-color: #71A821;
+  color: whitesmoke;
+}
+.app__container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
